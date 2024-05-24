@@ -1,13 +1,15 @@
-import Pagos from "./components/Pagos"
+import AddCreditForm from "./components/AddCreditForm"
+import Credit from "./components/CreditList"
 
 function App() {
 
   return (
-    <main>
-      <body>
-        <Pagos/>
-      </body>
-    </main>
+      <main>
+        <section className="p-4">
+          <AddCreditForm />
+          <Credit />
+        </section>
+      </main>
   )
 }
 
