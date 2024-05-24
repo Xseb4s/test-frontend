@@ -3,12 +3,9 @@
 @tailwind utilities;
 
 :root{
-  --primary:white;
+  --primary:black;
+  --secondary:#d9d9d9;
   --third:#3e3e42;
-}
-
-body{
-  background-color: var(--third);
 }
 
 .react-datepicker__header {
