@@ -1,14 +1,6 @@
-import Form from "./Form"
-
 const Pagos = () => {
-  return (
-    <>
-        <div>
-            <h1 className="text-primary">Pagos</h1>
-            <Form/>
-        </div>
-    </>
-  )
+  return 
+    //Aquí ordenaría los componentes para dejar App.tsx libre para los redireccionamientos y context
 }
 
 export default Pagos
